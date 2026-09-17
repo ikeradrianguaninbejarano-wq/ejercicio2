@@ -1,0 +1,17 @@
+{
+  "name": "ejercicio2-formulario-accesible",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Formulario de registro accesible y publicable como sitio estatico.",
+  "scripts": {
+    "test": "playwright test",
+    "test:html": "html-validate index.html",
+    "test:links": "node tests/external-links.test.js"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.55.0",
+    "html-validate": "^11.16.0",
+    "http-server": "^14.1.1"
+  }
+}
